@@ -1,12 +1,15 @@
 package com.company;
 
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
+
+
 
             boolean keepPlaying = true;
 
@@ -23,10 +26,11 @@ public class Main {
                     }
 
                     case 2 -> {
-                        return;
+                        keepPlaying = false;
                     }
                     default -> {
-                        System.out.println("Option not available, please try again");
+
+
                     }
                 }
             }
@@ -35,7 +39,7 @@ public class Main {
         public static int getUserInput () {
             Scanner sc = new Scanner(System.in);
 
-            int userInput = 0;
+           int userInput = 0;
             try {
                 userInput = sc.nextInt();
             } catch (Exception e) {
