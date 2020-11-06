@@ -2,19 +2,23 @@ package com.company;
 
 public class Room {
 
-    Enemies magician;
+    Barbarians bob;
 
-    Room() {                           // enemies in 1st room
+    Room() {                           // enemies in  room
 
-        magician = new Enemies();
+        bob = new Barbarians();
 
 
     }
 
 
-    public void open(Player player) {    // magician attack player
+    public void open(Player player) {    // barbarians attack player
 
-        magician.attack(player);
+        bob.attack(player);
+
 
     }
+
+
+
 }

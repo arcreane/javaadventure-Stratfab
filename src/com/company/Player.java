@@ -2,11 +2,13 @@ package com.company;
 
 public class Player {
 
-    int healthPoint;
+    int healthPointPl;
+    Weapons sword;
 
     Player() {                      // player healthpoint
 
-        healthPoint = 200;
+        healthPointPl = 100;
+        sword = new Weapons();
 
 
     }
@@ -19,7 +21,8 @@ public class Player {
 
 
     public void looseHealthPoint(int damages) { //  player damages. player loose 10 healthpoint
-        healthPoint -= damages;
+        healthPointPl -= damages;
+
 
 
     }
