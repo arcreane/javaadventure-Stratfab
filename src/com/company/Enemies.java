@@ -9,12 +9,12 @@ public class Enemies {
 
         // magician name, health point and weapon
       String magician = "mag";
-      int maghealthPoint = 300;
+      int magHealthPoint = 300;
       String magWeapon = "lightning";
 
 
         // barbarians name, health point and weapon
-         String barbarians = "barb";
+        String barbarians = "barb";
          int baHealthPoint = 250;
          String baWeapon = "axe";
 

@@ -8,7 +8,7 @@ public class Player {
   // player name, health point and weapons
 
   String player = "play";
-  int playhealthPoint = 300;
+  int playHealthPoint = 300;
   String playWeapon1 = "sword";
   String PlayWeapon2 = "waterFlasks";
 
