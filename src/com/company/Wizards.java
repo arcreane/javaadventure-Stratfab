@@ -1,11 +1,11 @@
 package com.company;
 
-public class Wizzard {
+public class Wizards {
 
     int healthPointWiz;
     Weapons lightning;
 
-    Wizzard(){
+    Wizards(){
 
         healthPointWiz = 10;
         lightning = new Weapons();

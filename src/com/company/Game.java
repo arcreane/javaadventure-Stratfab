@@ -10,7 +10,7 @@ public class Game {
         //debut du jeu
         System.out.println("Welcome to the Dungeon");
         System.out.println("push the door and be careful");
-        System.out.println("behind the door there is a " + "magician");
+        System.out.println("behind the door there is a " + "wizard");
 
 
     }
