@@ -5,7 +5,7 @@ public class Wizards {
     int healthPointWiz;
     Weapons lightning;
 
-    Wizards(){
+    public Wizards(){
 
         healthPointWiz = 10;
         lightning = new Weapons();

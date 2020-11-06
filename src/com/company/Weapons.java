@@ -4,7 +4,7 @@ public class Weapons {
 
     int damages;
 
-    Weapons() {
+    public Weapons() {
 
         damages = 10;
     }

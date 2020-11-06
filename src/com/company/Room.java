@@ -4,7 +4,7 @@ public class Room {
 
     Barbarians bob;
 
-    Room() {                           // enemies in  room
+    public Room() {                           // enemies in  room
 
         bob = new Barbarians();
 

@@ -5,7 +5,7 @@ public class Player {
     int healthPointPl;
     Weapons sword;
 
-    Player() {                      // player healthpoint
+    public Player() {                      // player healthpoint
 
         healthPointPl = 100;
         sword = new Weapons();

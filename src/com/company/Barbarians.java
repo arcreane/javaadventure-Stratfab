@@ -5,7 +5,7 @@ public class Barbarians {
     int healthPointBa;
     Weapons axe;
 
-    Barbarians() {
+    public Barbarians() {
 
         healthPointBa = 10;
 
