@@ -2,13 +2,16 @@ package com.company;
 
 public class Player {
 
- // player name, health point and weapons
-
- private static String player = "play";
- private static int playhealthPoint = 300;
- private static String playWeapon1 = "sword";
- private static String PlayWeapon2 = "waterFlasks";
+ public static void player(){
 
 
+  // player name, health point and weapons
+
+  String player = "play";
+  int playhealthPoint = 300;
+  String playWeapon1 = "sword";
+  String PlayWeapon2 = "waterFlasks";
+
+ }
 
 }

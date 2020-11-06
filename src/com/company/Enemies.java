@@ -5,21 +5,20 @@ import java.util.Scanner;
 
 public class Enemies {
 
-    // magician name, health point and weapon
-    private static String magician = "mag";
-    private static int maghealthPoint = 300;
-    private static String magWeapon = "lightning";
+    public static void opponents(){
+
+        // magician name, health point and weapon
+      String magician = "mag";
+      int maghealthPoint = 300;
+      String magWeapon = "lightning";
 
 
+        // barbarians name, health point and weapon
+         String barbarians = "barb";
+         int baHealthPoint = 250;
+         String baWeapon = "axe";
 
 
-    // barbarians name, health point and weapon
-    private static String barbarians = "barb";
-    private static int baHealthPoint = 250;
-    private static String baWeapon = "axe";
-
-
-
-
+    }
 
 }
