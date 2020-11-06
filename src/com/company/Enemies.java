@@ -5,20 +5,20 @@ import java.util.Scanner;
 
 public class Enemies {
 
-    public static void opponents(){
+    int healthPoint;
+    Weapons sword;
 
-        // magician name, health point and weapon
-      String magician = "mag";
-      int magHealthPoint = 300;
-      String magWeapon = "lightning";
+    Enemies() {
 
+        healthPoint = 10;
 
-        // barbarians name, health point and weapon
-        String barbarians = "barb";
-         int baHealthPoint = 250;
-         String baWeapon = "axe";
+        sword = new Weapons();
 
 
     }
 
+    public void attack(Player player) {           // enemies attack player and cause damages
+        player.looseHealthPoint(sword.damages);
+
+    }
 }

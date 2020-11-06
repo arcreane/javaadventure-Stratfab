@@ -2,10 +2,13 @@ package com.company;
 
 public class Weapons {
 
-    public static void weapons(){
+    int damages;
 
+    Weapons() {
 
-
-
+        damages = 10;
     }
+
+
 }
+

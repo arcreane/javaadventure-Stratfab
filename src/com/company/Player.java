@@ -2,16 +2,26 @@ package com.company;
 
 public class Player {
 
- public static void player(){
+    int healthPoint;
+
+    Player() {                      // player healthpoint
+
+        healthPoint = 200;
 
 
-  // player name, health point and weapons
+    }
 
-  String player = "play";
-  int playHealthPoint = 300;
-  String playWeapon1 = "sword";
-  String PlayWeapon2 = "waterFlasks";
+    public void enter(Dungeon fear) {    // player enter into the Dungeon
+        fear.parcours(this);
 
- }
+
+    }
+
+
+    public void looseHealthPoint(int damages) { //  player damages. player loose 10 healthpoint
+        healthPoint -= damages;
+
+
+    }
 
 }
